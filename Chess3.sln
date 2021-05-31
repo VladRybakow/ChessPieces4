@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess3", "Chess3.csproj", "{D2C5F512-142E-4653-9FE2-B5EECFDCFB10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsChess", "..\GraphicsChess\GraphicsChess.csproj", "{ACDD1664-54BD-462E-BF1F-DD73904FA409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLibraryPieces", "..\WpfLibraryPieces\WpfLibraryPieces.csproj", "{60F88544-EE74-499A-9E17-F755EB4D4A88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2C5F512-142E-4653-9FE2-B5EECFDCFB10} = {D2C5F512-142E-4653-9FE2-B5EECFDCFB10}
+		{ACDD1664-54BD-462E-BF1F-DD73904FA409} = {ACDD1664-54BD-462E-BF1F-DD73904FA409}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,14 @@ Global
 		{D2C5F512-142E-4653-9FE2-B5EECFDCFB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2C5F512-142E-4653-9FE2-B5EECFDCFB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2C5F512-142E-4653-9FE2-B5EECFDCFB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDD1664-54BD-462E-BF1F-DD73904FA409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDD1664-54BD-462E-BF1F-DD73904FA409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDD1664-54BD-462E-BF1F-DD73904FA409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDD1664-54BD-462E-BF1F-DD73904FA409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F88544-EE74-499A-9E17-F755EB4D4A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F88544-EE74-499A-9E17-F755EB4D4A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F88544-EE74-499A-9E17-F755EB4D4A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F88544-EE74-499A-9E17-F755EB4D4A88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
